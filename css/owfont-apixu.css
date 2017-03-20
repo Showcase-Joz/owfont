@@ -14,6 +14,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 .owf {
   display: inline-block;
   font: normal normal normal 14px/1 owfont;
@@ -151,10 +152,10 @@
 
 /*   Drizzle - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
 
-/*  light intensity drizzle */
-.owf-300:before,
-.owf-300-d:before,
-.owf-300-n:before {
+/*  light intensity drizzle (was 300)*/
+.owf-1153:before,
+.owf-1153-d:before,
+.owf-1153-n:before {
   content: "\EB8C";
 }
 /*  drizzle */
@@ -208,16 +209,16 @@
 
 /*   Rain - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
 
-/* light rain  */
-.owf-500:before,
-.owf-500-d:before,
-.owf-500-n:before {
+/* light rain (was 500) */
+.owf-1183:before,
+.owf-1183-d:before,
+.owf-1183-n:before {
   content: "\EC54";
 }
-/* moderate rain  */
-.owf-501:before,
-.owf-501-d:before,
-.owf-501-n:before {
+/* moderate rain (was 501) */
+.owf-1189:before,
+.owf-1189-d:before,
+.owf-1189-n:before {
   content: "\EC55";
 }
 /* heavy intensity rain  */
@@ -358,10 +359,10 @@
 .owf-731-n:before {
   content: "\ED3B";
 }
-/* Fog */
-.owf-741:before,
-.owf-741-d:before,
-.owf-741-n:before {
+/* Fog (was 741) */
+.owf-1135:before,
+.owf-1135-d:before,
+.owf-1135-n:before {
   content: "\ED45";
 }
 /* sand */
@@ -408,12 +409,12 @@
 .owf-951-n:before {
   content: "\F168";
 }
-/*  few clouds   */
-.owf-801:before,
-.owf-801-d:before {
+/*  few clouds (was 801)  */
+.owf-1003:before,
+.owf-1003-d:before {
   content: "\ED81";
 }
-.owf-801-n:before {
+.owf-1003-n:before {
   content: "\F169";
 }
 /* scattered clouds */
